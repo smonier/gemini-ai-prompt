@@ -1,0 +1,12 @@
+{
+  "chat": {
+    "title": "KI-Chat",
+    "reset": "Zurücksetzen",
+    "placeholder": "Geben Sie eine Nachricht ein...",
+    "send": "Senden",
+    "open": "Gemini IA Chat-Fenster öffnen"
+  },
+  "error": {
+    "ai_overload": "Das KI-Modell ist derzeit überlastet. Bitte versuchen Sie es später erneut."
+  }
+}

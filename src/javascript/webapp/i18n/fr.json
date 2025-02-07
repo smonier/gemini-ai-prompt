@@ -1,0 +1,12 @@
+{
+    "chat": {
+        "title": "Gemini Chat - IA Generative",
+        "reset": "Réinitialiser",
+        "placeholder": "Tapez un message...",
+        "send": "Envoyer",
+        "open": "Ouvrir la fenêtre de chat Gemini IA"
+    },
+    "error": {
+        "ai_overload": "Le modèle d'IA est actuellement surchargé. Veuillez réessayer plus tard."
+    }
+}
