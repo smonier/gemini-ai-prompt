@@ -44,10 +44,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-modules</artifactId>
@@ -57,7 +54,7 @@
     <groupId>org.jahia.se.modules.gemini-ai-prompt</groupId>
     <artifactId>gemini-ai-prompt</artifactId>
     <name>Gemini Generative AI Prompt</name>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (Gemini Generative AI Prompt) for running on a Jahia server.</description>
 
@@ -65,7 +62,8 @@
         <connection>scm:git:git@github.com:smonier/gemini-ai-prompt.git</connection>
         <developerConnection>scm:git:git@github.com:smonier/gemini-ai-prompt.git</developerConnection>
         <url>https://github.com/smonier/gemini-ai-prompt</url>
-    </scm>
+      <tag>gemini-ai-prompt-1.0.0</tag>
+  </scm>
     <properties>
         <yarn.arguments>build:production</yarn.arguments>
         <!--        <jahia.plugin.version>6.9</jahia.plugin.version>-->
